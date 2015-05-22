@@ -1,0 +1,9 @@
+main: all
+
+all: myresolver
+
+myresolver:
+	gcc -w -oterm myresolver.c -o myresolver
+clean: 
+	rm myresolver
+	
